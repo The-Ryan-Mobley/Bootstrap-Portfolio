@@ -3,52 +3,98 @@ body{
     background-repeat: repeat;
 
 }
+nav{
+    border-bottom-style:solid;
+    border-bottom-width: 1%;
+    border-bottom-color: #cccccc;
+}
 #mypic{
+    margin-top:10%;
     display: block;
     transform: rotate(270deg);
-    max-width: 20%;
+    max-width: 80%;
     max-height: auto;
-    padding:1%;
+    padding:2%;
 }
-.card-title{
+h2{
     color:#4aaaa5;
     background-color: #ffffff;
+    padding:1%;
+    font-size: 3;
 }
-.card {
-    margin-top: 2%;
-    
-    
+.seperator{
+    padding:.1%;
+    width:100%;
+    background-color:#cccccc;
 }
-.card-text{
+
+.paragraph{
     color: #777777;
-    padding:1%
+    background-color:#ffffff;
+    padding:2%;
 }
 .page-content{
-    flex: 1 0 auto;
-    padding-bottom:10%;
+    margin-top: 1%;
+    background-color:#ffffff;
 }
 h1{
     background-color: #4aaaa5;
     color: #ffffff;
-    padding:0.5%;
-    text-align: center;
+    padding:3%;
+    
+    margin-right:-5%;
+   
     
 }
-.push{
-    height:10%;
-    padding-bottom:1%;
+b{
+    color: #777777;
+}
+.message{
+    width:100%;
+}
+#button{
+    margin-bottom: 1%;
+}
+.porttitle{
+    position:absolute;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    margin-left:10%;
+    padding:5%;
+    width:110%;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.picbox{
+    position: relative;
+    text-align: center;
+    float: left;
+    background-color: #ffffff;
+    border-color:#ffffff;
+    border-style:solid;
+    border-width:50px;
+    border-right-width: 0;
+    border-bottom-width:0;
+    overflow:hidden;
+}
+.spacer{
+    height:20px;
+    padding:1%;
 }
 footer{
     position:absolute;
-    margin-bottom:-1%;
-
+    border-top:2%;
+    border-top-style:solid;
+    border-top-color: #4aaaa5;
     flex-shrink: none;
-    padding-top:20%;
+    padding:1%;
     bottom:0;
     width:100%;
-    min-height:10%;
     background-color:#666666;
-    color:#ffffff;
     text-align:center;
 
+}
+.text{
+    color:#ffffff;
 }

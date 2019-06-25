@@ -8,19 +8,21 @@
     <body>
         
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand p-3 mb-2 bg-primary text-white" href="#" ><h1>Ryan Mobley</h1></a>
+            <a class="navbar-brand mb-0"><h1>Ryan Mobley</h1></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
                 </li>
+                <span class="border-right"></span>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <span class="border-right"></span>
                 
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -31,7 +33,30 @@
             </div>
             <span class="border-bottom border-secondary"></span>
           </nav>
-    <div class="bg"></div>
-    <p class="py-5 text-center">
+          <!-- contact body -->
+          <div class="container page-content">
+            <div class="row">
+              <div class="col-12">
+                  <h2>Contact</h2>
+                  <div class="seperator"></div>
+                  <form class = "contact" name="Forms1" action="/action_page.php">
+                    <b>Full Name:</b><br>
+                    <input class = "message" type="text" name="fname"><br><br>
+                    <b>Email Name:</b><br>
+                    <input class = "message" type="text" name="lname"><br><br>
+                    <b>Message:</b><br>
+                    <textarea class = "message" rows="10" cols="50"></textarea><br><br>
+                    <input id ="button" type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+ 
+
+        <footer class="footer">
+            <div class="container">
+              <span class="text">copyright &#x24B8</span>
+            </div>
+          </footer>
     </body>
 </html>
