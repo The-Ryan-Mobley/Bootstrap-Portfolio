@@ -38,6 +38,7 @@ h2{
     margin-top: 1%;
     background-color:#ffffff;
     padding-bottom:1%;
+    margin-bottom:10%;
     
 }
 h1{
@@ -82,7 +83,9 @@ b{
     padding-bottom:5%;
 }
 footer{
-    margin-top:14%;
+    margin-top:auto;
+    position:absolute;
+    display:block;
     border-top:2%;
     border-top-style:solid;
     border-top-color: #4aaaa5;
