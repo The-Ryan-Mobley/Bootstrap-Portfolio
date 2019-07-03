@@ -79,6 +79,10 @@ b{
     border-bottom-width:0;
     overflow:hidden;
 }
+.picbox:hover{
+    opacity: 0.5;
+
+}
 #lastitem{
     padding-bottom:5%;
 }
