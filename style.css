@@ -7,7 +7,6 @@ nav{
     border-bottom-width: 1%;
     border-bottom-color: #cccccc;
 }
-
 #mypic{
     margin-top:10%;
     display: block;
@@ -33,6 +32,8 @@ h2{
     color: #777777;
     background-color:#ebf0f5;
     padding:2%;
+    display: inline-block;
+    
 }
 .page-content{
     margin-top: 1%;
@@ -86,6 +87,9 @@ b{
 #lastitem{
     padding-bottom:5%;
     
+}
+.main-link{
+    margin-left: 2em;
 }
 footer{
     margin-top:10%;
