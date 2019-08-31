@@ -23,6 +23,10 @@ h2{
     padding:1%;
     font-size: 3;
 }
+.small-title{
+    color:#4aaaa5;
+    font-size:1.5em;
+}
 .seperator{
     padding:.1%;
     margin-left:1%;
@@ -85,9 +89,25 @@ b{
     border-bottom-width:0;
     overflow:hidden;
 }
+.small-box{
+    margin-left:0.5%;
+    
+}
+.small-box:hover{
+    opacity: 0.5;
+}
+.linkbox{
+    max-width:3.125em;
+    max-height:auto;
+    
+}
+
 .picbox:hover{
     opacity: 0.5;
 
+}
+#firstbox{
+    margin-left: 3%;
 }
 #lastitem{
     padding-bottom:5%;
